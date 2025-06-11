@@ -27,12 +27,12 @@ Todo esto para garantizar el acceso seguro a recursos compartidos y evitar condi
 │   ├─ producer_consumer.c
 │   └─ dining_philosophers.c
 │
-├─ go/
-│    ├─ tsqueue.go
-│    ├─ producer_consumer.go
-│    └─ dining_philosophers.go
-│
-└── README.md               
+└─ go/
+    ├─ tsqueue.go
+    ├─ producer_consumer.go
+    └─ dining_philosophers.go
+
+            
 ```
 
 ---
