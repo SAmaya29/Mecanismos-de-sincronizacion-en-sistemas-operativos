@@ -2,7 +2,7 @@
 
 > Universidad de Antioquia - Curso de Sistemas Operativos  
 > 📅 Fecha: Junio 2025  
-> 👨‍💻 Autor: [Tu Nombre Aquí]
+> 👨‍💻 Autores: Sebastian Amaya Perez, Emmanuel Bustamante Valbuena
 
 ---
 
@@ -22,11 +22,17 @@ Todo esto para garantizar el acceso seguro a recursos compartidos y evitar condi
 
 ```bash
 📁 lab4-sistemas-operativos/
-├── queue.c                  # Cola segura con mutex y condition variables
-├── producer_consumer.c      # Productores y consumidores con semáforos
-├── dining_philosophers.c    # Solución al problema de los filósofos
-├── utils.h / utils.c        # Funciones comunes
-└── README.md                # Este archivo :)
+├─ c/
+│   ├─ tsqueue.c
+│   ├─ producer_consumer.c
+│   └─ dining_philosophers.c
+│
+├─ go/
+│    ├─ tsqueue.go
+│    ├─ producer_consumer.go
+│    └─ dining_philosophers.go
+│
+└── README.md               
 ```
 
 ---
